@@ -1,0 +1,71 @@
+.QWidget
+{
+	
+	background: qradialgradient(cx: 0.15, cy: -0.2, fx: 0.15, fy: -0.2, radius: 1.8, stop: 0 rgb(200,200,200), stop: 1 rgb(65,105,225));
+	border-left-width:30px;
+	border-left-style:ouset;
+	border-left-color:rgb(150,150,150);
+	min-width:1000px;
+	min-height:600px;
+}
+
+QComboBox
+{
+	font-size:20px;
+}
+
+QLabel
+{
+	background-color:rgba(0,0,16,0.5);
+	color:rgb(230,230,230);
+	padding:5px;
+	font-size:20px;
+}
+QLabel#home
+{
+	background-color:rgba(0,0,0,0);
+	font:bold 50px  Impact;
+	color:rgb(32,32,50);
+	border:3px  outset rgb(13,166,162);
+	padding:5px;
+	max-height:60px;
+}
+QLineEdit,QTextEdit
+{
+	min-height:30px;
+	font-size:30px;
+}
+
+
+QPushButton
+{
+	padding:5px;
+	background-color:qradialgradient(cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4, radius: 1.35, stop: 0 rgb(64,0,0), stop: 1 rgb(0,0,0));
+	color:rgb(200,200,200);
+	font:bold italic 30px Courier New;
+	max-width:500px;
+	border-radius:5px;
+	border-style:outset;
+
+}
+QPushButton:hover
+{
+	color:rgb(13,165,162);
+	border:2px solid rgb(13,165,162);
+	font-size:35px;
+}
+
+QPushButton:disabled
+{
+	padding:5px;
+}
+
+QTableView
+{
+	background-color:rgba(0,0,0,0.6);
+}
+QTableView::item,QTableView::text
+{
+	font-weight:bold;
+	color:white;
+}
