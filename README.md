@@ -8,5 +8,5 @@ and client program
 3. **Multi Choice Server** : It is the program to be installed on the server side. It will wait for connections request from clients 
 and will send a customised questionnaire for each client.
 
-# Prerequistes
+# Prerequisites
 Qt 5.6 or above.
