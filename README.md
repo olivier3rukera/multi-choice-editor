@@ -5,7 +5,7 @@ to automate multiple choice examinations. For each client, the order of question
 1. **Multi Choice Editor** : give a user friendly interface to save questions in a suitable format for the server 
 and client program
 2. **Multi Choice Client** : It is the program to be installed on the client side.
-3. **Multi Choice Server** : It is the program to be installed on the server side. It will wait for connections request from clients 
+3. **Multi Choice Server** : It is the program to be installed on the server side. It will wait for connection requests from clients 
 and will send a customised questionnaire for each client.
 
 # Prerequisites
